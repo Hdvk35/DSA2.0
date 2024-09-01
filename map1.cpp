@@ -18,4 +18,26 @@ int main()
     m["rohit"]=4;
     m["rohit"]=2;
 
+    // searching 
+
+    cout<<m["harshit"]<<endl;
+    cout<<m.at("virat")<<endl;
+
+
+    cout<<m.size()<<endl;
+
+    // to check presecne
+
+    cout<<m.count("bro")<<endl;
+
+    for(auto i:m){
+        cout<<i.first<<" "<<i.second<<endl; 
+    }
+
+    unordered_map<string,int> :: iterator it = m.begin();
+    while(it != m.end()){
+        cout<<it->first<<" "<<it->second<<endl;
+        it++;
+    }
+
 }
