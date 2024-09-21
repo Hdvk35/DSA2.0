@@ -1,1 +1,1 @@
- m["rohit"]=2;
+digit = nextDigit;
